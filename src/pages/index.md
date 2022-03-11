@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/hero-img.jpg
 heading: El lema que queramos poner
 subheading: Alia blablabla
 mainpitch:
