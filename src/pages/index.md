@@ -5,12 +5,12 @@ image: /img/hero-img.jpg
 heading: El lema que queramos poner
 subheading: Alia blablabla
 mainpitch:
-  title: Why Kaldi
+  title: Per què ALIA?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    ALIA neix amb el compromís d'ajudar les dones, especialment les que es
+    troben en situació de vulnerabilitat social, econòmica, educativa o cultural,
+    a aconseguir la seva inclusió plena i aconseguir una societat més justa,
+    solidària i amb igualtat de gènere.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
