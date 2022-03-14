@@ -3,6 +3,8 @@ import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const TagsPage = ({
   data: {
