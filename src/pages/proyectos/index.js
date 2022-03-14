@@ -3,14 +3,14 @@ import * as React from "react";
 import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
 
-export default class ProyectosIndexPage extends React.Component {
+export default class ServiciosIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            // backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
           <h1
@@ -22,7 +22,7 @@ export default class ProyectosIndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Proyectos
+            Projectes
           </h1>
         </div>
         <section className="section">
