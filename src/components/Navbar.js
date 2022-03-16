@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/logo.svg";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { DropdownButton } from "react-bootstrap";
 import { Dropdown } from "react-bootstrap";
 

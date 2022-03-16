@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
+import { Carousel } from "react-bootstrap";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -9,7 +10,6 @@ import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
 import slide01 from "/static/img/perro-slide-1.jpg"
 import slide02 from "/static/img/perro-slide-2.jpg"
 import slide03 from "/static/img/perro-slide-3.jpg"
