@@ -17,6 +17,9 @@ $black: rgb(30, 30, 30)
 .navbar .navbar-menu
   box-shadow: none !important
 
+.navbar-item
+  text-decoration: none
+
 .navbar-item img
   max-height: inherit!important
 
@@ -80,6 +83,56 @@ $black: rgb(30, 30, 30)
 .margin-top-0
   margin-top: 0 !important
 
+
+.navbar-start .navbar-item
+  display: inline-flex!important
+  text-decoration: none
+
+.navbar-start .navbar-item:hover
+  color: $primary
+
+.navbar-start .navbar-item:hover::after
+  content: ''
+  width: calc(100% - 1.50em)
+  position: absolute
+  left: 0.75em
+  bottom: 10px
+  border-width: 0 0 1px
+  border-style: solid
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active
+  background-color: transparent!important
+  color: $primary!important
+
+.my-dropdown button
+  color: inherit!important
+  background-color: inherit!important
+  border-color: inherit!important
+  text-transform: inherit!important
+  box-shadow: none!important
+  border: none!important
+
+.my-dropdown-link
+  padding: 1rem 2rem!important
+  text-decoration: none!important
+  display: flex!important
+
+.my-dropdown-link:focus,
+.my-dropdown-link:hover,
+.my-dropdown-link:active
+  text-decoration: none
+  background-color: #b790c1 !important
+
+
+
+.my-dropdown-link a
+  color: #212529
+  text-decoration: none
+.my-dropdown-link:focus a,
+.my-dropdown-link:hover a,
+.my-dropdown-link:active a
+  color: #fff
+
 .navbar-item .icon
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
@@ -116,6 +169,7 @@ $menu-label-color: $white-ter
 
 .menu-list a
   display: inline-flex!important
+  text-decoration: none
 
 .menu-list a:hover::after
   content: ''

@@ -70,13 +70,14 @@ const Navbar = class extends React.Component {
                 Nosaltres
               </Link>
               <Link className="navbar-item" to="#">
-                <DropdownButton id="dropdown-basic-button" title="Serveis">
-                  <Dropdown.Item> <Link to="/servicios/Formacio">Formació</Link></Dropdown.Item>
-                  <Dropdown.Item> <Link to="/servicios/consultoria-de-genere">Consultoria de gènere</Link></Dropdown.Item>
-                  <Dropdown.Item> <Link to="/servicios/Creacio-artistica-comunitaria-i-arterapia">Creació artística comunitària i art-teràpia</Link></Dropdown.Item>
-                  <Dropdown.Item> <Link to="/servicios/Dinamitzacio-comunitaria-en-lambit-intercultural">Dinamització comunitària en l'àmbit intercultural</Link></Dropdown.Item>
-                  <Dropdown.Item> <Link to="/servicios/Disseny-i-comunicacio-feminista">Disseny i comunicació feminista</Link></Dropdown.Item>
-                  <Dropdown.Item> <Link to="/servicios/Investigacio">Investigació</Link> </Dropdown.Item>
+                <DropdownButton className="my-dropdown" title="Serveis">
+                  {/*id="dropdown-basic-button"*/}
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/Formacio">Formació</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/consultoria-de-genere">Consultoria de gènere</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/Creacio-artistica-comunitaria-i-arterapia">Creació artística comunitària i art-teràpia</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/Dinamitzacio-comunitaria-en-lambit-intercultural">Dinamització comunitària en l'àmbit intercultural</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/Disseny-i-comunicacio-feminista">Disseny i comunicació feminista</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/Investigacio">Investigació</Link> </Dropdown.Item>
                 </DropdownButton>
               </Link>
               <Link className="navbar-item" to="/proyectos">
