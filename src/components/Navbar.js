@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { DropdownButton } from "react-bootstrap";
+import { Dropdown } from "react-bootstrap";
+
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -65,8 +70,15 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 Nosaltres
               </Link>
-              <Link className="navbar-item" to="/servicios">
-                Serveis
+              <Link className="navbar-item" to="#">
+                <DropdownButton id="dropdown-basic-button" title="Serveis">
+                  <Dropdown.Item> <Link to="/servicios/Formacio">Formació</Link></Dropdown.Item>
+                  <Dropdown.Item> <Link to="/servicios/consultoria-de-genere">Consultoria de gènere</Link></Dropdown.Item>
+                  <Dropdown.Item> <Link to="/servicios/Creacio-artistica-comunitaria-i-arterapia">Creació artística comunitària i art-teràpia</Link></Dropdown.Item>
+                  <Dropdown.Item> <Link to="/servicios/Dinamitzacio-comunitaria-en-lambit-intercultural">Dinamització comunitària en l'àmbit intercultural</Link></Dropdown.Item>
+                  <Dropdown.Item> <Link to="/servicios/Disseny-i-comunicacio-feminista">Disseny i comunicació feminista</Link></Dropdown.Item>
+                  <Dropdown.Item> <Link to="/servicios/Investigacio">Investigació</Link> </Dropdown.Item>
+                </DropdownButton>
               </Link>
               <Link className="navbar-item" to="/proyectos">
                 Projectes
