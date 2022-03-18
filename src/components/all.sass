@@ -67,12 +67,12 @@ $black: rgb(30, 30, 30)
     font-size: 18px
     font-size: 1rem
     text-transform: uppercase
+    text-decoration: none!important
     line-height: 1.25
     background-color: #fff
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-
     color: #5a2e80
     text-align: center
     -webkit-box-shadow: inset 0 0 0 2px #5a2e80
@@ -122,8 +122,6 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .my-dropdown-link:active
   text-decoration: none
   background-color: #b790c1 !important
-
-
 
 .my-dropdown-link a
   color: #212529
@@ -197,15 +195,43 @@ $menu-label-color: $white-ter
     display: inline
 
 // blog roll
+.projects-list
+  overflow-x: scroll
+
 .blog-list-item.is-featured
   background-color: #d6400033
 .blog-list-item header
   display: flex
-  margin-bottom: 1em
+  flex-direction: column
+  //margin-bottom: 1em
+  margin-bottom: 0
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
+.image-roll img
+  min-height: 400px!important
+
+.notification
+  padding: 0!important
+
+.notification a:not(.button):not(.dropdown-item)
+  text-decoration: none!important
+
+.projects-roll-description
+  display: flex
+  justify-content: end
+  color: #fff
+  height: 100%
+  padding: 1rem 1rem 1.5rem 1rem
+  width: 100%
+  background: rgb(244,244,244)
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4) 100%)
+  flex-direction: column
+
+
+.projects-roll-description .title
+  color: #8b67ab!important
 
 @import "~bulma"
 

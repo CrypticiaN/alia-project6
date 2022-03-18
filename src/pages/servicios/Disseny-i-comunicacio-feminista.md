@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Disseny i comunicació feminista
+title: projecte 5
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg

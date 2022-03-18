@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Consultoria de gènere 
-date: 
+title: Web  Societat Doctor Alonso
+date: 2017-01-04T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
