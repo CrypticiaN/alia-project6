@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
                     </ul>
                   </section>
                 </div>
-                <div className="column social">
+{/*                <div className="column social">
                   <a title="facebook" href="https://facebook.com">
                     <img
                         src={facebook}
@@ -92,7 +92,7 @@ const Footer = class extends React.Component {
                         style={{ width: "1em", height: "1em" }}
                     />
                   </a>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>

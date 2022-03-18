@@ -12,7 +12,6 @@ const FeatureGrid = ({ gridItems }) => (
               style={{
                 width: "100%",
                 display: "inline-block",
-                  background:"#000"
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
