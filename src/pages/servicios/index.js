@@ -24,7 +24,7 @@ export default class ServiciosIndexPage extends React.Component {
                            padding: "",*/
                     }}
                 >
-                    Projectes
+                    Servicios
                 </h1>
             </div>
             <div className="col-8">

@@ -49,12 +49,16 @@ export const IndexPageTemplate = ({
                     </div>
                 </div>
             </section>
-            <div className="column is-12 ">
-                <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
-                    Projectes
-                </h3>
-                <BlogRoll />
-            </div>
+            <section className="container">
+                <div className="column is-12 ">
+                    <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                        Projectes
+                    </h3>
+                </div>
+                <div className="projects-list">
+                    <BlogRoll />
+                </div>
+            </section>
         </div>
     );
 };

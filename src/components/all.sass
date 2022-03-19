@@ -123,13 +123,14 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .my-dropdown-link:hover,
 .my-dropdown-link:active
   text-decoration: none
-  background-color: #b790c1 !important
+  background-color: #743b8a !important
 
 .my-dropdown-link a
   color: #212529
   text-decoration: none
   padding: 1rem 2rem!important
   display: flex!important
+  width: 100%
 .my-dropdown-link:focus a,
 .my-dropdown-link:hover a,
 .my-dropdown-link:active a
@@ -197,9 +198,17 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
+.page-intro
+  height:175px
+  align-items: center
+
 // blog roll
 .projects-list
-  overflow-x: scroll
+  margin-bottom: 60px
+
+.projects-list .is-multiline
+  overflow-x: scroll!important
+  flex-wrap: nowrap!important
 
 .blog-list-item.is-featured
   background-color: #d6400033

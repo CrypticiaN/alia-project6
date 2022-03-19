@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import BlogRoll from "../../components/BlogRoll";
 
 // eslint-disable-next-line
 export const ServiciosPostTemplate = ({
@@ -43,6 +44,11 @@ export const ServiciosPostTemplate = ({
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="content">
+          <BlogRoll />
+        </div>
+      </div>
     </section>
   );
 };
@@ -55,7 +61,7 @@ ServiciosPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ServiciosPost = ({ data }) => {
+const _serviciosPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -80,13 +86,13 @@ const ServiciosPost = ({ data }) => {
   );
 };
 
-ServiciosPost.propTypes = {
+_serviciosPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default ServiciosPost;
+export default _serviciosPost;
 
 export const pageQuery = graphql`
   query ServiciosPostByID($id: String!) {
