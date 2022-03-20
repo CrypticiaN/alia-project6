@@ -1,6 +1,7 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { Link } from "gatsby";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -18,7 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>{item.text}</p>
-            <button>read more</button>
+            <Link to={`/serveis/${item.text}/`}>Ver más</Link>
         </section>
       </div>
     ))}
