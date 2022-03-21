@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const ProyectosPostTemplate = ({
+export const ProjectsPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -47,7 +47,7 @@ export const ProyectosPostTemplate = ({
   );
 };
 
-ProyectosPostTemplate.propTypes = {
+ProjectsPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -55,12 +55,12 @@ ProyectosPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ProyectosPost = ({ data }) => {
+const ProjectsPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <ProyectosPostTemplate
+      <ProjectsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -80,13 +80,13 @@ const ProyectosPost = ({ data }) => {
   );
 };
 
-ProyectosPost.propTypes = {
+ProjectsPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default ProyectosPost;
+export default ProjectsPost;
 
 export const pageQuery = graphql`
   query ProyectosPostByID($id: String!) {
