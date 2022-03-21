@@ -1,10 +1,10 @@
 import * as React from "react";
 
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll";
+import ProjectsRoll from "../../components/ProjectsRoll";
 
 
-export default class ProjectesIndexPage extends React.Component {
+export default class ProjectsIndexPage extends React.Component {
   render() {
     return (
       <Layout>
@@ -24,7 +24,7 @@ export default class ProjectesIndexPage extends React.Component {
           <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <ProjectsRoll />
             </div>
           </div>
         </section>
