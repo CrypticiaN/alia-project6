@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Layout from "../../../components/Layout";
-import BlogRoll from "../../../components/BlogRoll";
+import ProjectsRoll from "../../../components/ProjectsRoll";
 
 export default class ServiciosIndexPage extends React.Component {
   render() {
@@ -24,7 +24,7 @@ export default class ServiciosIndexPage extends React.Component {
           <section className="section">
               <div className="container">
                   <div className="content">
-                      <ProjectRoll/>
+                      <ProjectsRoll/>
                   </div>
               </div>
           </section>

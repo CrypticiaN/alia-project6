@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Layout from "../../../components/Layout";
-import BlogRoll from "../../../components/BlogRoll";
+import ProjectsRoll from "../../../components/ProjectsRoll";
 
 export default class ServiciosIndexPage extends React.Component {
   render() {
