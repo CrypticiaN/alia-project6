@@ -78,7 +78,7 @@ export default function ProjectsRoll() {
         query ProjectsRollQuery {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "projects-post" } } }
           ) {
             edges {
               node {
