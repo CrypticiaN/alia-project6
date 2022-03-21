@@ -6,8 +6,8 @@ import { Link } from "gatsby";
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
-      <div key={item.text} className="col-4">
-        <section className="section">
+      <div key={item.text} className="col-md-6 col-lg-4">
+        <section className="section has-text-centered">
           <div className="has-text-centered">
             <div
               style={{
@@ -18,8 +18,13 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
-            <Link to={`/serveis/${item.text}/`}>Ver más</Link>
+          <h3 classname="has-text-weight-semibold is-size-2 has-text-centered"
+              style={{
+                  margin: "8px auto 12px auto",
+              }}>
+              {item.text}
+          </h3>
+            <Link to={`/serveis/${item.slug}`} className="btn">Ver Más →</Link>
         </section>
       </div>
     ))}

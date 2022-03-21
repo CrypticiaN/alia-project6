@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: projecte 7
+title: Projecte 5
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg
 description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:
-  - brewing
-  - chemex
+  - Creació artística comunitària i arterapia
+  - Dinamització comunitària en l'àmbit intercultural
 ---
 ![chemex](/img/chemex.jpg)
 

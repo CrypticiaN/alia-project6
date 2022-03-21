@@ -1,13 +1,15 @@
 ---
 templateKey: blog-post
-title: project 8
+title: Projecte 4
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
 tags:
-  - flavor
-  - tasting
+  - Disseny i comunicació feminista 
+  - Creació artística comunitària i arterapia
+  - Dinamització comunitària en l'àmbit intercultural
+  - Investigació
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 

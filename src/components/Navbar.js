@@ -47,19 +47,19 @@ const Navbar = class extends React.Component {
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Kaldi" style={{ width: "9em" }} />
             </Link>
-            {/* Hamburger menu */}
-            <div
+          </div>
+          {/* Hamburger menu */}
+          <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               role="menuitem"
               tabIndex={0}
               onKeyPress={() => this.toggleHamburger()}
               onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+          >
+            <span />
+            <span />
+            <span />
           </div>
           <div
             id="navMenu"
@@ -72,12 +72,12 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="#">
                 <DropdownButton className="my-dropdown" title="Serveis">
                   {/*id="dropdown-basic-button"*/}
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/formacio">Formació</Link></Dropdown.Item>
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/consultoria-de-genere">Consultoria de gènere</Link></Dropdown.Item>
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/creacio-artistica-comunitaria-i-arterapia">Creació artística comunitària i art-teràpia</Link></Dropdown.Item>
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/dinamitzacio-comunitaria-en-lambit-intercultural">Dinamització comunitària en l'àmbit intercultural</Link></Dropdown.Item>
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/disseny-i-comunicacio-feminista">Disseny i comunicació feminista</Link></Dropdown.Item>
-                  <Dropdown.Item className="my-dropdown-link"> <Link to="/servicios/investigacio">Investigació</Link> </Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/formacio">Formació</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/consultoria-de-genere">Consultoria de gènere</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/creacio-artistica-comunitaria-i-arterapia">Creació artística comunitària i art-teràpia</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/dinamitzacio-comunitaria-en-lambit-intercultural">Dinamització comunitària en l'àmbit intercultural</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/disseny-i-comunicacio-feminista">Disseny i comunicació feminista</Link></Dropdown.Item>
+                  <Dropdown.Item className="my-dropdown-link"> <Link to="/serveis/investigacio">Investigació</Link> </Dropdown.Item>
                 </DropdownButton>
               </Link>
               <Link className="navbar-item" to="/projectes">

@@ -10,12 +10,12 @@ export default class ServiciosIndexPage extends React.Component {
       <Layout>
           <section className="container">
             <div className="page-intro row">
-                <div className="col-5">
+                <div className="col-md-5">
                     <h1 className="has-text-weight-bold is-size-1">
                         Projectes
                     </h1>
                 </div>
-                <div className="col-7">
+                <div className="col-md-7">
                     tags
                 </div>
             </div>

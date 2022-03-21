@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 1r Festival de Comunicació Feminista
+title: Projecte 2
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/flavor_wheel.jpg

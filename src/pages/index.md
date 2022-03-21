@@ -17,22 +17,34 @@ intro:
   title: Serveis
   blurbs:
     - image: /img/LogoAlia-3.png
+      slug: >
+        consultoria-de-genere
       text: >
         Consultoria de gènere
     - image: /img/LogoAlia-3.png
+      slug: >
+        investigacio
       text: >
-        Investigacció
+        Investigació
     - image: /img/LogoAlia-3.png
+      slug: >
+        formacio
       text: >
         Formació.
     - image: /img/LogoAlia-3.png
+      slug: >
+        disseny-i-comunicacio-feminista
       text: >
         Disseny i comunicació feminista
     - image: /img/LogoAlia-3.png
+      slug: >
+        creacio-artistica-comunitaria-i-arterapia
       text: >
         Creació artística comunitària i arterapia
     - image: /img/LogoAlia-3.png
+      slug: >
+        dinamitzacio-comunitaria-en-lambit-intercultural
       text: >
-        Dinamització comunitària en l'àmbit intercultural.
+        Dinamització comunitària en l'àmbit intercultural
 
 ---

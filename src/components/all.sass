@@ -209,6 +209,8 @@ $menu-label-color: $white-ter
 .projects-list .is-multiline
   overflow-x: scroll!important
   flex-wrap: nowrap!important
+  display: flex!important
+  justify-content: flex-start!important
 
 .blog-list-item.is-featured
   background-color: #d6400033
@@ -254,8 +256,8 @@ $menu-label-color: $white-ter
     flex-basis: 50%
 
 +mobile
-  .blog-list-item header
-    display: block
+  //.blog-list-item header
+  //  display: block
   .blog-list-item .featured-thumbnail
     text-align: center
     max-width: 70%

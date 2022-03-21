@@ -9,10 +9,10 @@ class BlogRollTemplate extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-multiline justify-content-center">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column col-4" key={post.id}>
+            <div className="is-parent justify-content-center column col-10 col-md-5 col-lg-4" key={post.id}>
               {/*is-6*/}
               <article
                 className={`blog-list-item tile is-child box notification ${

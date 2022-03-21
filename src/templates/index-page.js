@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
-
+import { graphql } from 'gatsby'
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
@@ -126,6 +125,7 @@ export const pageQuery = graphql`
                 gatsbyImageData(width: 600, quality: 64, layout: CONSTRAINED)
               }
             }
+            slug
             text
           }
           heading
