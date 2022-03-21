@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: projectes-post
 title: Projecte 8
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false

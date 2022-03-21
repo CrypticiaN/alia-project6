@@ -1,5 +1,5 @@
 ---
-templateKey: 'blog-post'
+templateKey: 'projectes-post'
 title: Projecte 3
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
