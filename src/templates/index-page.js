@@ -4,7 +4,7 @@ import { getImage } from "gatsby-plugin-image";
 import { graphql } from 'gatsby'
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import ProjectsRoll from "../components/ProjectsRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
                     </h3>
                 </div>
                 <div className="projects-list">
-                    <BlogRoll />
+                    <ProjectsRoll />
                 </div>
             </section>
         </div>
