@@ -24,7 +24,7 @@ export default class ServiciosIndexPage extends React.Component {
           <section className="section">
               <div className="container">
                   <div className="content">
-                      <BlogRoll />
+                      <ProjectsRoll />
                   </div>
               </div>
           </section>
