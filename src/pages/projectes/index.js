@@ -17,6 +17,7 @@ export default class ServiciosIndexPage extends React.Component {
                 </div>
                 <div className="col-md-7">
                     tags
+
                 </div>
             </div>
           </section>

@@ -20,7 +20,7 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <h3 classname="has-text-weight-semibold is-size-2 has-text-centered"
               style={{
-                  margin: "8px auto 12px auto",
+                  margin: "8px auto 14px auto",
               }}>
               {item.text}
           </h3>

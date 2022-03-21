@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Projecte 9
 date: 2017-01-04T15:04:10.000Z
-featuredpost: true
+featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
