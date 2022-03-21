@@ -89,7 +89,7 @@ ProjectsPost.propTypes = {
 export default ProjectsPost;
 
 export const pageQuery = graphql`
-  query ProyectosPostByID($id: String!) {
+  query ProjectsPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

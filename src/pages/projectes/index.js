@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
 
 
-export default class ServiciosIndexPage extends React.Component {
+export default class ProjectesIndexPage extends React.Component {
   render() {
     return (
       <Layout>
