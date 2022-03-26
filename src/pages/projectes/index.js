@@ -16,7 +16,6 @@ export default class ProjectsIndexPage extends React.Component {
                     </h1>
                 </div>
                 <div className="col-md-7">
-                    tags
 
                 </div>
             </div>

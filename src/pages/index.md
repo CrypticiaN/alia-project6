@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Notícies destacades
 image: /img/hero-img.jpg
-heading: 
-subheading: Alia blablabla
+heading: Alia
+subheading: Alia homepage
 
 mainpitch:
   title: Per què ALIA?
