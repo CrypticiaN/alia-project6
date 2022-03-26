@@ -101,7 +101,7 @@ collections:
                   },
                 ],
             }
-          - {
+
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
