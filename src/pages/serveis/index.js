@@ -14,7 +14,7 @@ export default class ServiciosIndexPage extends React.Component {
             // backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
-            <div className="col-4">
+            <div className="col-md-5">
                 <h1
                     className="has-text-weight-bold is-size-1"
                     style={{
@@ -27,7 +27,7 @@ export default class ServiciosIndexPage extends React.Component {
                     Servicios
                 </h1>
             </div>
-            <div className="col-8">
+            <div className="col-md-7">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                 ridiculus mus.

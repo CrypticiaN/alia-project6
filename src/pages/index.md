@@ -30,7 +30,7 @@ intro:
       slug: >
         formacio
       text: >
-        Formació.
+        Formació
     - image: /img/LogoAlia-3.png
       slug: >
         disseny-i-comunicacio-feminista
