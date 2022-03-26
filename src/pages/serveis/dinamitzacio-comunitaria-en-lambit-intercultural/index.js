@@ -9,12 +9,12 @@ export default class ServiciosIndexPage extends React.Component {
       <Layout className="container" >
           <section className="container">
               <div className="page-intro row">
-                  <div className="col-5">
+                  <div className="col-md-5">
                       <h1 className="has-text-weight-bold is-size-1">
                           Dinamitzacio comunitaria en l'ambit intercultural
                       </h1>
                   </div>
-                  <div className="col-7">
+                  <div className="col-md-7">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                       Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                       ridiculus mus.
