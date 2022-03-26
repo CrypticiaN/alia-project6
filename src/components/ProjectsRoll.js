@@ -9,7 +9,7 @@ class ProjectsRollTemplate extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline justify-content-center">
+      <div className="columns is-multiline justify-content-center mx-md-auto">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="is-parent justify-content-center column col-10 col-md-5 col-lg-4" key={post.id}>
