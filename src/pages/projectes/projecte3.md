@@ -2,13 +2,12 @@
 templateKey: projects-post
 title: Projecte 3
 date: 2017-01-04T15:04:10.000Z
-featuredpost: true
+description: We’re proud to announce that we’ll be offering a small batch of
+  Jamaica Blue Mountain coffee beans in our store next week.
+featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
 tags:
-  - Investigació 
+  - Investigació
   - Formació
   - Consultoria de gènere
 ---
