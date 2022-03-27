@@ -52,11 +52,10 @@ export const IndexPageTemplate = ({
             <section className="container">
                 <div className="column is-12 ">
                     <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
-                        Projectes
+                        Projectes Destacats
                     </h3>
                 </div>
                 <div className="projects-list">
-                    <ProjectsRoll />
                     <ProjectsFeaturedRoll />
                 </div>
             </section>

@@ -10,10 +10,17 @@ class ProjectsFeaturedRollTemplate extends React.Component {
 
     return (
       <div className="columns is-multiline justify-content-center mx-md-auto">
-        {posts &&
-          posts.map(({ node: post }) => (
+        {posts
+            .filter(({ node: post })  => {
+              return post.frontmatter.featuredpost;
+            })
+            .map(({ node: post }) => (
             <div className="is-parent justify-content-center column col-10 col-md-5 col-lg-4" key={post.id}>
-              <article>
+              <article
+                  className={`blog-list-item tile is-child box notification ${
+                      post.frontmatter.featuredpost ? 'is-featured' : 'true'
+                  }`}
+              >
                 <header className="position-relative">
                   {post.frontmatter.featuredimage ? (
                     <div className="image-roll">
@@ -84,7 +91,7 @@ export default function ProjectsFeaturedRoll() {
                   title
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
-                  featuredpost: "true"
+                  featuredpost
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(
