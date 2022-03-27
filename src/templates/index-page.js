@@ -8,6 +8,7 @@ import ProjectsRoll from "../components/ProjectsRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import ProjectsFeaturedRoll from "../components/ProjectsFeaturedRoll";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -56,6 +57,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="projects-list">
                     <ProjectsRoll />
+                    <ProjectsFeaturedRoll />
                 </div>
             </section>
         </div>
