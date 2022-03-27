@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: projects-post
 title: 2r Festival de Comunicació Feminista
 date: 2022-03-21T21:12:54.006Z
 description: We’re proud to announce that we’ll be offering a small batch of
