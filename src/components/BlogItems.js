@@ -84,7 +84,7 @@ class BlogItems extends Component {
                             </div>
                             {edge.node.frontmatter.featuredimage && (
                                 <Img
-                                    className=""
+                                    className=" "
                                     fluid={edge.node.frontmatter.featuredimage.childImageSharp.fluid}
                                     alt={edge.node.frontmatter.title}
                                 />
