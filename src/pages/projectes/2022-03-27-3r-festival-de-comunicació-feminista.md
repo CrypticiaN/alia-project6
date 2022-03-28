@@ -1,7 +1,7 @@
 ---
 templateKey: projects-post
-title: 3r Festival de Comunicació Feminista
-date: 2022-03-27T17:26:52.857Z
+title: 4r Festival de Comunicació Feminista
+date: 2022-03-28T09:10:55.977Z
 description: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
 featuredpost: true
