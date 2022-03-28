@@ -1,6 +1,7 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 import Img from "gatsby-image"
+import PropTypes from "prop-types";
 
 const getCategories = items => {
     let categoryItems = items.map(item => {
@@ -72,7 +73,7 @@ class BlogItems extends Component {
                     return (
                         <li className="" key={edge.node.id}>
                             <h2>
-                                <Link to={`/blog/${edge.node.fields.slug}/`}>
+                                <Link to={`/blog/${edge.node.slug}/`}>
                                     {edge.node.frontmatter.title}
                                 </Link>
                             </h2>
@@ -81,7 +82,7 @@ class BlogItems extends Component {
                   Posted on {edge.node.frontmatter.date} <span> / </span>{" "}
                 </span>
                             </div>
-                            {edge.node.frontmatter.featured && (
+                            {edge.node.frontmatter.featuredimage && (
                                 <Img
                                     className=""
                                     fluid={edge.node.frontmatter.featuredimage.childImageSharp.fluid}
@@ -90,7 +91,7 @@ class BlogItems extends Component {
                             )}
                             <p className="">{edge.node.excerpt}</p>
                             <div className="">
-                                <Link to={`/blog/${edge.node.fields.slug}/`}>Read More</Link>
+                                <Link to={`/blog/${edge.node.slug}/`}>Read More</Link>
                             </div>
                         </li>
                     )
