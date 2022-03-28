@@ -73,7 +73,7 @@ class BlogItems extends Component {
                     return (
                         <li className="" key={edge.node.id}>
                             <h2>
-                                <Link to={`/blog/${edge.node.slug}/`}>
+                                <Link to={`/blog/${edge.node.fields.slug}/`}>
                                     {edge.node.frontmatter.title}
                                 </Link>
                             </h2>
@@ -91,7 +91,7 @@ class BlogItems extends Component {
                             )}
                             <p className="">{edge.node.excerpt}</p>
                             <div className="">
-                                <Link to={`/blog/${edge.node.slug}/`}>Read More</Link>
+                                <Link to={`/blog/${edge.node.fields.slug}/`}>Read More</Link>
                             </div>
                         </li>
                     )
